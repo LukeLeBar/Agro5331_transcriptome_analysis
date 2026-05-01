@@ -19,11 +19,17 @@ sample_metadata.csv - Metadata from the NCBI website for our SRAs.
 cultivar_info.csv - Cultivar name, pedigree, and year of release.
 
 MSI
+
 % sbatch SRA_extract.sh
+
 % sbatch generate_wheat_index.sh
+
 % sbatch wheat_transcript_abundance.sh
+
 % sbatch number_expressed_genes.sh
+
 % module load R
+
 % Rscript merge_htseq.R
 
 Move to R and execute differential_expression_analysis.R

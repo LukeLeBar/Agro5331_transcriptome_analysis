@@ -33,3 +33,5 @@ MSI
 % Rscript merge_htseq.R
 
 Move to R and execute differential_expression_analysis.R
+
+Gene functions were manually searched on KnetMiner.
